@@ -1,27 +1,13 @@
 "use babel";
 // @flow
 
-import type {
-  DevToolsInfoReducer,
-} from "../ExecutionControlEpic/DevToolsSummaryFeature/Reducers/DevToolsInfo";
-import type {
-  PlanConfigSchemasReducer,
-} from "../ExecutionControlEpic/PlanConfigurationFeature/Reducers/PlanConfigSchemas";
-import type {
-  PlanConfigsReducer,
-} from "../ExecutionControlEpic/PlanConfigurationFeature/Reducers/PlanConfigs";
-import type {
-  TasksReducer,
-} from "../ExecutionControlEpic/TaskExecutionFeature/Reducers/Tasks";
-import type {
-  DiagnosticsReducer,
-} from "../ExecutionControlEpic/DiagnosticsFeature/Reducers/Diagnostics";
-import type {
-  PackagesReducer,
-} from "../ProjectSystemEpic/PackageFeature/Reducers/Packages";
-import type {
-  CacheBlobsReducer,
-} from "../ExecutionControlEpic/CacheSystemFeature/Reducers/CacheBlobs";
+import type { DevToolsInfoReducer } from "../ExecutionControlEpic/DevToolsSummaryFeature/Reducers/DevToolsInfo";
+import type { PlanConfigSchemasReducer } from "../ExecutionControlEpic/PlanConfigurationFeature/Reducers/PlanConfigSchemas";
+import type { PlanConfigsReducer } from "../ExecutionControlEpic/PlanConfigurationFeature/Reducers/PlanConfigs";
+import type { TasksReducer } from "../ExecutionControlEpic/TaskExecutionFeature/Reducers/Tasks";
+import type { DiagnosticsReducer } from "../ExecutionControlEpic/DiagnosticsFeature/Reducers/Diagnostics";
+import type { PackagesReducer } from "../ProjectSystemEpic/PackageFeature/Reducers/Packages";
+import type { CacheBlobsReducer } from "../ExecutionControlEpic/CacheSystemFeature/Reducers/CacheBlobs";
 
 export type State = {
   devtools: DevToolsInfoReducer,
