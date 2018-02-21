@@ -8,6 +8,7 @@ import type { TasksReducer } from "../ExecutionControlEpic/TaskExecutionFeature/
 import type { DiagnosticsReducer } from "../ExecutionControlEpic/DiagnosticsFeature/Reducers/Diagnostics";
 import type { PackagesReducer } from "../ProjectSystemEpic/PackageFeature/Reducers/Packages";
 import type { CacheBlobsReducer } from "../ExecutionControlEpic/CacheSystemFeature/Reducers/CacheBlobs";
+import type { ProjectsReducer } from "../EventSystemEpic/ProjectFeature/Types/types";
 
 export type State = {
   devtools: DevToolsInfoReducer,
@@ -17,4 +18,5 @@ export type State = {
   diagnostics: DiagnosticsReducer,
   packages: PackagesReducer,
   cacheBlobs: CacheBlobsReducer,
+  projects: ProjectsReducer,
 };
