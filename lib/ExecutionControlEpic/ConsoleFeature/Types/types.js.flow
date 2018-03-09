@@ -1,0 +1,21 @@
+"use babel";
+// @flow
+
+import type { ConsoleDiagnostic } from "../../LanguageServerProtocolFeature/Types/standard";
+
+export type DiagnosticError = 1;
+
+export type DiagnosticWarning = 2;
+
+export type DiagnosticInformation = 3;
+
+export type DiagnosticHint = 4;
+
+export type DiagnosticSuccess = 5;
+
+export type DiagnosticSeverity =
+  | DiagnosticError
+  | DiagnosticWarning
+  | DiagnosticInformation
+  | DiagnosticHint
+  | DiagnosticSuccess;
