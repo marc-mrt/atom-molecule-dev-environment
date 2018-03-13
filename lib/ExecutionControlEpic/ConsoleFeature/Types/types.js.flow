@@ -1,21 +1,21 @@
 "use babel";
 // @flow
 
-import type { ConsoleDiagnostic } from "../../LanguageServerProtocolFeature/Types/standard";
+import type { ConsoleLog } from "../../LanguageServerProtocolFeature/Types/standard";
 
-export type DiagnosticError = 1;
+export type ConsoleLogError = 1;
 
-export type DiagnosticWarning = 2;
+export type ConsoleLogWarning = 2;
 
-export type DiagnosticInformation = 3;
+export type ConsoleLogInformation = 3;
 
-export type DiagnosticHint = 4;
+export type ConsoleLogHint = 4;
 
-export type DiagnosticSuccess = 5;
+export type ConsoleLogSuccess = 5;
 
-export type DiagnosticSeverity =
-  | DiagnosticError
-  | DiagnosticWarning
-  | DiagnosticInformation
-  | DiagnosticHint
-  | DiagnosticSuccess;
+export type ConsoleLogSeverity =
+  | ConsoleLogError
+  | ConsoleLogWarning
+  | ConsoleLogInformation
+  | ConsoleLogHint
+  | ConsoleLogSuccess;
