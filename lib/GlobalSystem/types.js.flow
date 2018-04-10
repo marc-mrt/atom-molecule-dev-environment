@@ -9,6 +9,7 @@ import type { DiagnosticsReducer } from "../ExecutionControlEpic/DiagnosticsFeat
 import type { PackagesReducer } from "../ProjectSystemEpic/PackageFeature/Reducers/Packages";
 import type { CacheBlobsReducer } from "../ExecutionControlEpic/CacheSystemFeature/Reducers/CacheBlobs";
 import type { ProjectsReducer } from "../EventSystemEpic/ProjectFeature/Types/types";
+import type { ConsoleLogsReducer } from "../ExecutionControlEpic/ConsoleFeature/Reducers/ConsoleLogs";
 
 export type State = {
   devtools: DevToolsInfoReducer,
@@ -19,4 +20,5 @@ export type State = {
   packages: PackagesReducer,
   cacheBlobs: CacheBlobsReducer,
   projects: ProjectsReducer,
+  consolelogs: ConsoleLogsReducer,
 };
