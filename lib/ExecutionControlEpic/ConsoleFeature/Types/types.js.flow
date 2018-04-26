@@ -3,19 +3,19 @@
 
 import type { ConsoleLog } from "../../LanguageServerProtocolFeature/Types/standard";
 
-export type ConsoleLogError = 1;
-
-export type ConsoleLogWarning = 2;
-
-export type ConsoleLogInformation = 3;
-
-export type ConsoleLogHint = 4;
-
-export type ConsoleLogSuccess = 5;
-
-export type ConsoleLogSeverity =
-  | ConsoleLogError
-  | ConsoleLogWarning
-  | ConsoleLogInformation
-  | ConsoleLogHint
-  | ConsoleLogSuccess;
+// export type ConsoleLogError = 1;
+//
+// export type ConsoleLogWarning = 2;
+//
+// export type ConsoleLogInformation = 3;
+//
+// export type ConsoleLogHint = 4;
+//
+// export type ConsoleLogSuccess = 5;
+//
+// export type ConsoleLogSeverity =
+//   | ConsoleLogError
+//   | ConsoleLogWarning
+//   | ConsoleLogInformation
+//   | ConsoleLogHint
+//   | ConsoleLogSuccess;
